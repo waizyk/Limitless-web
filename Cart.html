@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Cart.css" /> <!-- Include your Cart.css here -->
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+    />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+</head>
+<body>
+    <div class="cart4">
+        <header class="header20">
+            <div class="header-inner">
+                <div class="logo-parent12">
+                    <div class="logo17">
+                        <!-- Replace with your logo image -->
+                        <img
+                            src="./public/image-73@2x.png"
+                            alt="Logo"
+                            class="image-73-icon"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="header-parent">
+                        <div class="header21">
+                            <a href="index.html" class="home4">Home</a>
+                            <img
+                                class="underline-icon41"
+                                loading="lazy"
+                                alt=""
+                                src="./public/underline.svg"
+                            />
+                        </div>
+                        <div class="header22" id="headerContainer1">
+                            <a href="Contact.html" class="contact17">Contact</a>
+                        </div>
+                        <div class="header23" id="headerContainer2">
+                            <a href="About.html" class="about5">About</a>
+                        </div>
+                        <div class="header24" id="headerContainer3">
+                            <!-- Replace with your cart link -->
+                            <a href="Cart.html" class="sign-up7">Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-component-set-group">
+                    <div class="search-component-set4">
+                        <div class="search-input4">
+                            <div class="what-are-you4">What are you looking for?</div>
+                            <img
+                                class="component-2-icon4"
+                                alt=""
+                                src="./public/component-2.svg"
+                            />
+                        </div>
+                    </div>
+                    <div class="wishlist-parent">
+                        <img
+                            class="wishlist-icon4"
+                            loading="lazy"
+                            alt=""
+                            src="./public/wishlist.svg"
+                        />
+                        <img
+                            class="cart1-with-buy4"
+                            loading="lazy"
+                            alt=""
+                            src="./public/cart1-with-buy.svg"
+                            id="cart1WithBuy"
+                        />
+                        <img class="user-icon4" alt="" src="./public/user.svg" />
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Your cart-specific content here -->
+        <div class="cart-inner">
+            <div class="cart-items">
+                <h1>Your Cart</h1>
+                <ul>
+                    <!-- Example cart items or dynamically generated from database -->
+                    <li>Product 1 - $10.00</li>
+                    <li>Product 2 - $15.00</li>
+                    <li>Product 3 - $20.00</li>
+                </ul>
+                <div class="cart-total">
+                    <p>Total: $45.00</p>
+                    <button class="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer14">
+        <div class="underline-parent18">
+            <img class="underline-icon42" alt="" src="./public/underline-5.svg" />
+            <div class="frame-wrapper36">
+                <div class="icon-copyright-parent9">
+                    <img
+                        class="icon-copyright27"
+                        alt=""
+                        src="./public/iconcopyright.svg"
+                    />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Your other footer content here -->
+
+    <script>
+        // Optional JavaScript for cart functionality
+        var cart1WithBuy = document.getElementById("cart1WithBuy");
+        if (cart1WithBuy) {
+            cart1WithBuy.addEventListener("click", function (e) {
+                // Handle cart icon click
+            });
+        }
+    </script>
+</body>
+</html>
